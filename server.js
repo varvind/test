@@ -29,7 +29,7 @@ app.post("/adduser",  async (req, res) => {
     var data = new User(req.body)
     try{
         const newUser = await data.save()
-        res.redirect('../views/index.html')
+        res.redirect('./views/index.html')
     }catch {
         console.log("Cannot save to database")
     }
