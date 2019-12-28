@@ -8,7 +8,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-const User = require('../Club Archive Tester/models/users')
+const User = require('../test/models/users')
 
 
 
